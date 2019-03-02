@@ -19,23 +19,149 @@
                 android:id="@+id/txtResult"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_span="4"
                 android:layout_gravity="right"
-                />
+                android:layout_span="4" />
         </TableRow>
 
         <TableRow
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            >
+            android:layout_height="wrap_content">
 
             <EditText
                 android:id="@+id/editInput"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_span="4"/>
+                android:layout_gravity="right"
+                android:layout_span="4"
+                android:inputType="number" />
 
         </TableRow>
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/btnCE"
+                android:text="CE" />
+
+            <Button
+                android:id="@+id/btnC"
+                android:text="C" />
+
+            <Button
+                android:id="@+id/btnDelete"
+                android:layout_span="2"
+                android:text="Delete"
+
+                />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/btnNumber7"
+                android:text="7"
+                />
+
+            <Button
+                android:id="@+id/btnNumber8"
+                android:text="8"
+                />
+
+            <Button
+                android:id="@+id/btnNumber9"
+                android:text="9"
+                />
+
+            <Button
+                android:id="@+id/btnNumberAdd"
+                android:text="+"
+                />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/btnNumber4"
+                android:text="4"
+                />
+
+            <Button
+                android:id="@+id/btnNumber5"
+                android:text="5"
+                />
+
+            <Button
+                android:id="@+id/btnNumber6"
+                android:text="6"
+                />
+
+            <Button
+                android:id="@+id/btnNumberSub"
+                android:text="-"
+                />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/btnNumber1"
+                android:text="1"
+                />
+
+            <Button
+                android:id="@+id/btnNumber2"
+                android:text="2"
+                />
+
+            <Button
+                android:id="@+id/btnNumber3"
+                android:text="3"
+                />
+
+            <Button
+                android:id="@+id/btnNumberMul"
+                android:text="*"
+                />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/btnNumber0"
+                android:text="0"
+                />
+
+            <Button
+                android:id="@+id/btnDot"
+                android:text="."
+                />
+
+            <Button
+                android:id="@+id/btnResult"
+                android:text="="
+                />
+
+            <Button
+                android:id="@+id/btnNumberDiv"
+                android:text="/"
+                />
+
+        </TableRow>
+
     </TableLayout>
 
 </android.support.constraint.ConstraintLayout>
